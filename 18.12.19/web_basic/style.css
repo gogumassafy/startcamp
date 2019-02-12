@@ -1,0 +1,58 @@
+* {
+    font-family: 'Major Mono Display', monospace;
+}
+
+h1, p {
+    color: gold;
+}
+
+body {
+    color:black;
+}
+
+#lunch {
+    color: red
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-large {
+    font-size: 200%;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-red {
+    color: red;
+}
+
+#dinner {
+    color: white;
+    background: black;
+}
+
+.container {
+    background: blueviolet
+}
+
+/* 아래는 후손 */
+div p {
+    color: green;
+}
+
+/* 아래는 자식과 관련된 코드 */
+div > p {
+    color: hotpink;
+}
+
+p + span {
+    color: brown;
+}
+
+p ~ span {
+    color: brown;
+}
